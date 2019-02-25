@@ -4,7 +4,7 @@ is an interactive augmented reality map of University of the Pacific, which can 
 ## Helpful Guides
 * Click [here](https://github.com/khcanniff/AR_UOP_Map/blob/master/Documentation/Guides/CodingStyle.md) for the coding style guide.
 * Click [here](https://github.com/khcanniff/AR_UOP_Map/blob/master/Documentation/Guides/UnityStyleGuide.md) for the Unity style guide.
-* Click [here](https://github.com/khcanniff/TigAR/edit/master/Documentation/Guides/Workflow.md) for the workflow guide for the project.
+* Click [here](https://github.com/khcanniff/TigAR/blob/master/Documentation/Guides/Workflow.md) for the workflow guide for the project.
 
 ## Documents
 * [RAD](https://docs.google.com/document/d/1U9FfWIM_y0-P6q1k5kZJPZqwBONfrOjIJ8YXSZ3PnvA/edit)
