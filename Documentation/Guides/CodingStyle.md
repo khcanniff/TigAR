@@ -1,4 +1,4 @@
-# The Official Ed CS Development C# Style Guide
+# The Official TigAR CS Development C# Style Guide 
 
 This style guidewas taken mostly from raywanderlich and is different from others
 you may see, because the focus is centered on readability for print and the web. 
