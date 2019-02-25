@@ -35,7 +35,5 @@ during the week there are two types of work hours which are conducted.
 
 
 ## Helpful Guides
-* Click [here](https://github.com/edcsdev/algogame/blob/master/Documentation/Guides/CodingStyle.md) for the coding style guide.
-* Click [here](https://github.com/edcsdev/algogame/blob/master/Documentation/Guides/GitHubGuide.md) for the GitHub guide.
-* Click [here](https://github.com/edcsdev/algogame/blob/master/Documentation/Guides/UnityStyleGuide.md) for the Unity style guide.
-* Click [here](https://github.com/edcsdev/algogame/blob/master/Documentation/Guides/UpdatingTableOfContents.md) for a guide on how to update the table of contents for the project.
+* Click [here](https://github.com/khcanniff/AR_UOP_Map/blob/master/Documentation/Guides/CodingStyle.md) for the coding style guide.
+* Click [here](https://github.com/khcanniff/AR_UOP_Map/blob/master/Documentation/Guides/UnityStyleGuide.md) for the Unity style guide.
