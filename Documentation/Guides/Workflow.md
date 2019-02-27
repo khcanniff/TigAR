@@ -1,7 +1,7 @@
 # Workflow Guide for the Project
 This guide is here to instruct or refresh a team member on the typical workflow of the team. We try to follow the Scrum style of management. 
 ## Communication
-The team conducts daily standup meetings in the general channel in [Discord](https://discordapp.com/channels/548010621212557313/548010621644439564). Please remeber to @everyone when you send out your daily standup. Don't worry about posting standups on the Weekend or Holidays.  For short hand notation we use:
+The team conducts daily standup meetings MWF in the general channel in [Discord](https://discordapp.com/channels/548010621212557313/548010621644439564). Please remeber to @everyone when you send out your daily standup. Don't worry about posting standups on the Weekend or Holidays.  For short hand notation we use:
 ```
 1) = what I have done
 2) = what I'm going to work on
