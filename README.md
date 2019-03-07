@@ -15,4 +15,6 @@ is an interactive augmented reality map of University of the Pacific, which can 
 
 ## [Discord Link](https://discordapp.com/channels/548010621212557313/548010621644439564)
 
+#Please keep all Vuforia Files in the "VuforiaFiles" folder. We should not need to touch those unless to copy over an asset. Keeping those files aside so the root can be more clean.
+
 
