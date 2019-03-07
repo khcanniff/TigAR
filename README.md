@@ -18,4 +18,7 @@ is an interactive augmented reality map of University of the Pacific, which can 
 ### Please keep all Vuforia Files in the "VuforiaFiles" folder. We should not need to touch those unless to copy over an asset. Keeping those files aside so the root can be more clean.
 The Unity application is the TigarApp folder, open Unity in there.
 
+Please note that a "Resource" folder will be created after the first time you play in editor mode. It just keeps track of what version of Vuforia you have. I've deleted this multiple times but it always comes back, so just simply ignore it since there is only one instance of it at a time anyway.
+
+The gitignore file will not push the "Resource" folder either, so you can just leave it alone. I cannot seem to find a way to delete it indefinitely.
 
