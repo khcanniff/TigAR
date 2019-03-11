@@ -13,13 +13,12 @@ During each meeting minutes are taken in the following format:
 ```
 # year-month-day
 # Present: <names>
-# Velocity: 
 # Updates on stories/issues
-* <issue number> <update information>
+* <issue/task > <update information>
 # Discussed Points
 * <information discussed> 
 # Committed stories/issues for following week
-* <issue number>
+* <issue/task >
 ```
 Commonly used acronyms in meeting minutes
 ```
