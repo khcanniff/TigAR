@@ -30,6 +30,7 @@ Completion requirements for task:
 during the week there are two types of work hours which are conducted.
 #### 1) Meeting Hours
 ##### Meeting hours is the time spent in a meeting regarding this project. Typically, there are 0.5 hours spent a week on meeting hours.
+##### We will take meeting minutes
 #### 2) Work Hours
 ##### Work on the project outside of meeting times.
 
