@@ -35,7 +35,8 @@ during the week there are two types of work hours which are conducted.
 ##### Work on the project outside of meeting times.
 
 ## GitHub Page
-### click [here](https://chris.beams.io/posts/git-commit/) for a helpful page on GitHub commits
+### click [here](https://chris.beams.io/posts/git-commit/) for a helpful page on GitHub commits [GitFlow](https://guides.github.com/introduction/flow/)
+
 
 ## Helpful Guides
 * Click [here](https://github.com/khcanniff/AR_UOP_Map/blob/master/Documentation/Guides/CodingStyle.md) for the coding style guide.
