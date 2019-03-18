@@ -2,7 +2,7 @@
 is an interactive augmented reality map of University of the Pacific, which can be accessed by any compatible smart phone mobile device. Users can use this application to help locate specific buildings on the Pacific campus, along with various other information like class names and historical facts.
 
 # Meetings
-10:20 AM Mondays
+Wednesday and Fridays between 9:30-10:00am
 
 ## Helpful Guides
 * Click [here](https://github.com/khcanniff/AR_UOP_Map/blob/master/Documentation/Guides/CodingStyle.md) for the coding style guide.
