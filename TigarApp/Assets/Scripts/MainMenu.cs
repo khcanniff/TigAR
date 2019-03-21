@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour {
     public Text testText;
@@ -18,6 +19,8 @@ public class MainMenu : MonoBehaviour {
 
     public void PressedBuildInfo() {
         testText.text = "Build Info Button has been pressed!";
+        SceneManager.LoadScene("BuildingInformation");
+
     }
 
     public void PressedLocateBuild() {
