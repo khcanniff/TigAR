@@ -33,5 +33,6 @@ public class MainMenu : MonoBehaviour {
 
     public void PressedAbout() {
         testText.text = "About Button has been pressed!";
+        SceneManager.LoadScene("About");
     }
 }
