@@ -25,6 +25,8 @@ public class MainMenu : MonoBehaviour {
 
     public void PressedLocateBuild() {
         testText.text = "Locate Building Button has been pressed!";
+        SceneManager.LoadScene("LocateBuilding");
+
     }
 
     public void PressedViewMap() {
