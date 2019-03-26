@@ -31,6 +31,8 @@ public class MainMenu : MonoBehaviour {
 
     public void PressedViewMap() {
         testText.text = "View Map Button has been pressed!";
+        SceneManager.LoadScene("ViewMap");
+
     }
 
     public void PressedAbout() {
