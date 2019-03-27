@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ViewMap.unity
     guid: e80f848687a7a394c9be2d08dffd0609
+  - enabled: 1
+    path: Assets/Scenes/LocateBuilding.unity
+    guid: 973bca77a79820e45bfc19bfc77a7697
   m_configObjects: {}
