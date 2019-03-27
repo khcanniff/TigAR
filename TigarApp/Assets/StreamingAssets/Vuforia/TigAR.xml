@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
-    <ImageTarget name="baunHall" size="500.000000 213.033539" />
+    <ImageTarget name="baunHall" size="500.000000 125.258263" />
     <ImageTarget name="tiger-head" size="500.000000 500.000000" />
     <ImageTarget name="pawprint" size="500.000000 500.000000" />
   </Tracking>
