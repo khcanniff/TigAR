@@ -197,7 +197,7 @@ GameObject:
   - component: {fileID: 216679414}
   - component: {fileID: 216679413}
   m_Layer: 0
-  m_Name: BaulHallButton
+  m_Name: BaunHallButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -216,11 +216,11 @@ RectTransform:
   m_Children:
   - {fileID: 1616474101}
   m_Father: {fileID: 1675293866}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -27.1, y: 21.4}
+  m_AnchoredPosition: {x: -23.5, y: 65.2}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &216679413
@@ -876,7 +876,7 @@ RectTransform:
   m_Children:
   - {fileID: 925051747}
   m_Father: {fileID: 1502003997}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
@@ -1066,7 +1066,7 @@ RectTransform:
   m_Children:
   - {fileID: 286519804}
   m_Father: {fileID: 1502003997}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1300,11 +1300,11 @@ RectTransform:
   m_Children:
   - {fileID: 2068467829}
   m_Father: {fileID: 1675293866}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -22.9, y: 65.7}
+  m_AnchoredPosition: {x: -24.7, y: 29.6}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1283414879
@@ -1699,8 +1699,8 @@ Transform:
   m_LocalPosition: {x: -359.6047, y: -47.349163, z: -14.571039}
   m_LocalScale: {x: 4.076433, y: 4.076433, z: 4.076433}
   m_Children:
-  - {fileID: 1234017282}
   - {fileID: 1080604560}
+  - {fileID: 1234017282}
   m_Father: {fileID: 1706076667}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1891,8 +1891,8 @@ Transform:
   m_LocalPosition: {x: -359.6047, y: -47.349163, z: -14.571039}
   m_LocalScale: {x: 4.076433, y: 4.076433, z: 4.076433}
   m_Children:
-  - {fileID: 1283414878}
   - {fileID: 216679412}
+  - {fileID: 1283414878}
   m_Father: {fileID: 1706076667}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
