@@ -14,6 +14,7 @@ public class BuildingInfoButtons : MonoBehaviour
     void Start()
     {
         text = this.GetComponent<Text>();
+        intialText = intialText.Replace("\\n","\n");
         text.text = intialText;
         NextButton.SetActive(true);
         PrevButton.SetActive(false);
@@ -27,13 +28,15 @@ public class BuildingInfoButtons : MonoBehaviour
     }
 
     public void nextButton(string displayText)
-    {
+    {   
+        displayText = displayText.Replace("\\n","\n");
         text.text = displayText;
         NextButton.SetActive(false);
         PrevButton.SetActive(true);
     }
     public void prevButton(string displayText)
-    {
+    {   
+        displayText = displayText.Replace("\\n","\n");
         text.text = displayText;
         NextButton.SetActive(true);
         PrevButton.SetActive(false);
