@@ -5,11 +5,10 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour {
-    public Text testText;
 
     // Start is called before the first frame update
     void Start() {
-        testText.text = "No button pressed";
+
     }
 
     // Update is called once per frame
@@ -18,25 +17,21 @@ public class MainMenu : MonoBehaviour {
     }
 
     public void PressedBuildInfo() {
-        testText.text = "Build Info Button has been pressed!";
         SceneManager.LoadScene("BuildingInformation");
 
     }
 
     public void PressedLocateBuild() {
-        testText.text = "Locate Building Button has been pressed!";
         SceneManager.LoadScene("LocateBuilding");
 
     }
 
     public void PressedViewMap() {
-        testText.text = "View Map Button has been pressed!";
         SceneManager.LoadScene("ViewMap");
 
     }
 
     public void PressedAbout() {
-        testText.text = "About Button has been pressed!";
         SceneManager.LoadScene("About");
     }
 }
