@@ -1012,7 +1012,7 @@ PrefabInstance:
     - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.size
-      value: 8
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
         type: 3}
@@ -1157,6 +1157,41 @@ PrefabInstance:
     - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[7].coordinates.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[8].coordinates.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[9].coordinates.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[10].coordinates.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[11].coordinates.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[12].coordinates.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[13].coordinates.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[14].coordinates.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
@@ -2038,7 +2073,7 @@ PrefabInstance:
     - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[2].coreOptions.isActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
         type: 3}
@@ -2318,7 +2353,7 @@ PrefabInstance:
     - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[7].coreOptions.isActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
         type: 3}
@@ -2369,6 +2404,398 @@ PrefabInstance:
     - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[7].density
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[8].coreOptions.isActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[8].coreOptions.sublayerName
+      value: Sphere5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[8].coreOptions.snapToTerrain
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[8].presetFeatureType
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[8].spawnPrefabOptions.prefab
+      value: 
+      objectReference: {fileID: 2052097810872444070, guid: 48e910bc0f9f7aa44bfe759946751169,
+        type: 3}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[8].spawnPrefabOptions.scaleDownWithWorld
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[8].findByType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[8].categories
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[8].nameString
+      value: Baun Hall
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[8].coordinates.Array.data[0]
+      value: '37,979988, -121.310930 '
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[8].density
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[9].coreOptions.isActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[9].coreOptions.sublayerName
+      value: Sphere6
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[9].coreOptions.snapToTerrain
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[9].presetFeatureType
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[9].spawnPrefabOptions.prefab
+      value: 
+      objectReference: {fileID: 2052097810872444070, guid: 48e910bc0f9f7aa44bfe759946751169,
+        type: 3}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[9].spawnPrefabOptions.scaleDownWithWorld
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[9].findByType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[9].categories
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[9].nameString
+      value: Baun Hall
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[9].coordinates.Array.data[0]
+      value: '37.980049, -121.310660 '
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[9].density
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[10].coreOptions.isActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[10].coreOptions.sublayerName
+      value: Sphere7
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[10].coreOptions.snapToTerrain
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[10].presetFeatureType
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[10].spawnPrefabOptions.prefab
+      value: 
+      objectReference: {fileID: 2052097810872444070, guid: 48e910bc0f9f7aa44bfe759946751169,
+        type: 3}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[10].spawnPrefabOptions.scaleDownWithWorld
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[10].findByType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[10].categories
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[10].nameString
+      value: Baun Hall
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[10].coordinates.Array.data[0]
+      value: '37.980138, -121.310284 '
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[10].density
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[11].coreOptions.isActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[11].coreOptions.sublayerName
+      value: Sphere8
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[11].coreOptions.snapToTerrain
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[11].presetFeatureType
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[11].spawnPrefabOptions.prefab
+      value: 
+      objectReference: {fileID: 2052097810872444070, guid: 48e910bc0f9f7aa44bfe759946751169,
+        type: 3}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[11].spawnPrefabOptions.scaleDownWithWorld
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[11].findByType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[11].categories
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[11].nameString
+      value: Baun Hall
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[11].coordinates.Array.data[0]
+      value: 37.980225, -121.309906
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[11].density
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[12].coreOptions.isActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[12].coreOptions.sublayerName
+      value: Sphere9
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[12].coreOptions.snapToTerrain
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[12].presetFeatureType
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[12].spawnPrefabOptions.prefab
+      value: 
+      objectReference: {fileID: 2052097810872444070, guid: 48e910bc0f9f7aa44bfe759946751169,
+        type: 3}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[12].spawnPrefabOptions.scaleDownWithWorld
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[12].findByType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[12].categories
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[12].nameString
+      value: Baun Hall
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[12].coordinates.Array.data[0]
+      value: 37.980300, -121.309613
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[12].density
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[13].coreOptions.isActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[13].coreOptions.sublayerName
+      value: Sphere10
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[13].coreOptions.snapToTerrain
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[13].presetFeatureType
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[13].spawnPrefabOptions.prefab
+      value: 
+      objectReference: {fileID: 2052097810872444070, guid: 48e910bc0f9f7aa44bfe759946751169,
+        type: 3}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[13].spawnPrefabOptions.scaleDownWithWorld
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[13].findByType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[13].categories
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[13].nameString
+      value: Baun Hall
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[13].coordinates.Array.data[0]
+      value: 37.980532, -121.309702
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[13].density
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[14].coreOptions.isActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[14].coreOptions.sublayerName
+      value: Knoles
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[14].coreOptions.snapToTerrain
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[14].presetFeatureType
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[14].spawnPrefabOptions.prefab
+      value: 
+      objectReference: {fileID: 4750224657907446775, guid: d3132ba0e8b6f56449d7c19b88603d6c,
+        type: 3}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[14].spawnPrefabOptions.scaleDownWithWorld
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[14].findByType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[14].categories
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[14].nameString
+      value: Knoles Hall
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[14].coordinates.Array.data[0]
+      value: 37.980532, -121.309702
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[14].density
       value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 4741526828292236, guid: 840fafd579d474d53ba0a6b55a3f7a89, type: 3}
