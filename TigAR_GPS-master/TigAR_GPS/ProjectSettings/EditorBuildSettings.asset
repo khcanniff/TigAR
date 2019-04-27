@@ -15,9 +15,30 @@ EditorBuildSettings:
     path: Assets/MapboxAR/Examples/Scenes/TabletopAR.unity
     guid: a455922b0e2954431922c9fb6c5377e4
   - enabled: 0
-    path: Assets/TigAR Scenes/CTCtoBaun.unity
+    path: Assets/TigAR Scenes/baun.unity
     guid: e2f442a8865f809438a603632f5ab48b
-  - enabled: 1
-    path: Assets/TigAR Scenes/CTCtoKnoles.unity
+  - enabled: 0
+    path: Assets/TigAR Scenes/Knoles.unity
     guid: ef07db7648a3401448703f6f2c23bd21
+  - enabled: 0
+    path: Assets/TigAR Scenes/DUC.unity
+    guid: c4f66f21f7d2e5b428c3eb582a3332af
+  - enabled: 0
+    path: Assets/TigAR Scenes/lib.unity
+    guid: 255687022a520344ebabd1aeb13f5436
+  - enabled: 0
+    path: Assets/TigAR Scenes/1.unity
+    guid: c50bac719a99a0446910e32aa386d35c
+  - enabled: 0
+    path: Assets/__DELETED_GUID_Trash/90451f9220ff1d346902b8b6553c3769
+    guid: 90451f9220ff1d346902b8b6553c3769
+  - enabled: 0
+    path: Assets/MapboxAR/Examples/Scenes/Baun.unity
+    guid: 9feb0932b4dca86449c7f09ee2f84754
+  - enabled: 0
+    path: Assets/MapboxAR/Examples/Scenes/testing.unity
+    guid: eab03f536194f2349a96abda56eba3eb
+  - enabled: 1
+    path: Assets/TigAR Scenes/baunPath.unity
+    guid: c8eee5f40cb0d514388f0bb4b7650ca2
   m_configObjects: {}
