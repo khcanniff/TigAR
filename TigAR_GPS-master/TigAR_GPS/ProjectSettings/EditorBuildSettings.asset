@@ -38,7 +38,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/MapboxAR/Examples/Scenes/testing.unity
     guid: eab03f536194f2349a96abda56eba3eb
-  - enabled: 1
+  - enabled: 0
     path: Assets/TigAR Scenes/baunPath.unity
     guid: c8eee5f40cb0d514388f0bb4b7650ca2
+  - enabled: 1
+    path: Assets/TigAR Scenes/DUCPath.unity
+    guid: a77ab9234cca47b4ea0aae2ad188db33
   m_configObjects: {}
