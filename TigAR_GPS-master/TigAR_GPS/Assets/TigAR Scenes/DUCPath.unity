@@ -1125,7 +1125,7 @@ PrefabInstance:
     - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[3].coordinates.Array.size
-      value: 11
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
         type: 3}
@@ -2300,7 +2300,7 @@ PrefabInstance:
     - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[5].coordinates.Array.data[0]
-      value: 37.982917, -121.344311
+      value: 37.982304, -121.344750
       objectReference: {fileID: 0}
     - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
         type: 3}
@@ -3800,6 +3800,11 @@ PrefabInstance:
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[3].coordinates.Array.data[10]
       value: '37.981233, -121.311839 '
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[3].coordinates.Array.data[11]
+      value: '37.979617, -121.311798 '
       objectReference: {fileID: 0}
     - target: {fileID: 4741526828292236, guid: 840fafd579d474d53ba0a6b55a3f7a89, type: 3}
       propertyPath: m_LocalPosition.y
