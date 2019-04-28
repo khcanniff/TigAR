@@ -47,13 +47,13 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 0
+  - enabled: 1
     path: Assets/TigAR Scenes/KnolesPath.unity
     guid: ef42c3e3bd4da0e40a1ab82ebcba8566
   - enabled: 0
-    path: Assets/__DELETED_GUID_Trash/54446f12c3cd00b4aa613351989a5a05
-    guid: 54446f12c3cd00b4aa613351989a5a05
-  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
     path: Assets/TigAR Scenes/LibraryPath.unity
     guid: 3c130668fe998b346bd5f8d78c1cbe18
   m_configObjects: {}

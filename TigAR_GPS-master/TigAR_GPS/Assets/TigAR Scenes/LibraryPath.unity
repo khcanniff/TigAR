@@ -2203,7 +2203,7 @@ PrefabInstance:
     - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[4].coreOptions.sublayerName
-      value: DUC
+      value: Library
       objectReference: {fileID: 0}
     - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
         type: 3}
@@ -3769,7 +3769,7 @@ PrefabInstance:
     - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[3].coordinates.Array.data[5]
-      value: '37,979988, -121.310930  '
+      value: '37.979988, -121.310930  '
       objectReference: {fileID: 0}
     - target: {fileID: 114081268807403756, guid: 840fafd579d474d53ba0a6b55a3f7a89,
         type: 3}
