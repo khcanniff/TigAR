@@ -3,6 +3,7 @@
 This style guidewas taken mostly from raywanderlich and is different from others
 you may see, because the focus is centered on readability for print and the web. 
 They created this style guide to keep the code in our tutorials consistent.  
+For TigAR purpose: dont worry about following this guide religiously.  
 
 The overarching goals are **conciseness**, **readability** and **simplicity**. Also, this guide is written to keep **Unity** in mind. 
 
