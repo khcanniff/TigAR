@@ -7,6 +7,8 @@ These are guidelines for keeping your project organized and allow your team to q
 
 Note that your team and project might have different needs, use different software, etc. Use this guide only as a base to decide on what works for your team. Every project should have its own, easy to find, style guide, so everyone in the team is up to date in the project's conventions.
 
+For TigAR purpose: dont worry about following this guide religiously.
+
 # Table of Contents
 
 - [Asset Naming](#asset-naming)
