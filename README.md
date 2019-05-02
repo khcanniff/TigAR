@@ -44,6 +44,11 @@ if (!StopSearchWhenModelFound && StopSearchWhileTracking && elapsed > 0.5f)
 ##### Creating the custom map in Mapbox involved removing extra layers, and ensure a valid path for the map. Since the map data was pre existing we checked to make sure that there was a valid path through campus. After ensureing valid paths, we add in a custom data set. The custom data set consisted of GPS coordinate spots to place the spheres at. In Unity we integrated the custom map through a secure URL. 
 
 # Future Workings
+##### There are other features we hope to include in the future:
+* Inlcude more buildings from UOP
+* Add class schedules personalized by the user
+* Include room numbers/classes held per building held in the informational text boxes for image recognition
+* Display additional information for viewing the traditional 2D map
 
 # Miscellaneous
 
