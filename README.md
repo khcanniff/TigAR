@@ -90,11 +90,30 @@ else
 
 ##### Now that the Mapbox custom was created the next step was implementing Mapbox into Unity. After importing the Mapbox package into Unity, there was a various prefab in the asset folders. Below is a screenshot of the hierarchy where each game object will be discussed. ![logo](https://github.com/khcanniff/TigAR/blob/master/Documentation/Images/Unity%20Mb%20prefabs.JPG)
 
-##### The AR Root game object handles the AR camera from AR Foundation. This object allows for cross platform AR development. MapCamera game object handles the view of the debug camera to use in the editor, and the red arrow which represents the user's location on the map.
-##### Debug Canvas game object displays the text on the map and the UI features like the repositioning button. 
-##### Location Provider handles the phone integration. Handles obtaining the phone's GPS to accurately update the map. This game object also provided in scene testing.
-##### Info Canvas displays the initial pop-up warning the user to pay attention to their surroundings
-##### MapHolder game object handles the placement of the map on the screen and where Mapbox data can be accessed. The game object AR Aligned Map is where the Mapbox data is location is interfaced through. Three components are on the AR Aligned game object: Update Map Pos By AR Plane Y, Initialize Map With Location Provider, and Abstract Map. Update Map Pos By AR Plane Y handles the update of the map with the AR plane. Initialize Map With Location Provider places the users location on the map. Abstract Map handles the main Mapbox integration into Unity. The four main options under Abstract Map are General, Image, Terrain, and Map Layers. General handles the starting location in play mode within Unity. It also handles the basic design of the map layout. Image sources from Mapbox to stylize the look of the displayed map. Terrain provides the ability to adjust the terrain from flat or add in elevation. Map Layers connect in the Mapbox URL to allow us to access the custom map data. Through the Map Layer POI can be placed on the map to appear to the user while they use the application. For each POI we placed a prefab into the object reference. For the POI on the building we have a prefab with 3D text, and for the guidance POI we placed orange guidance spheres. This game object also handles the features of the map. The path was added with a blue transparent material to create a visually pleasing path. After placing the POI on the maps, we did tests on the campus. Some adjustments had to be made to ensure correct location to reflect real life conditions. 
+##### The Mapbox hierarchy explained
+* AR Root Game Object
+    - ##### Handles the AR camera from AR Foundation  
+    - ##### Cross platform AR development
+    - ##### Handles the view of the debug camera to use in the editor
+    - ##### Red arrow which represents the user's location on the map
+
+* MapHolder game object explained
+    - ##### Handles the placement of the map on the screen
+    - ##### Where Mapbox data can be accessed 
+    - ##### AR Aligned Map is where the main Mapbox interface is located. There are three components on this game object
+        - ##### 1) Update Map Pos By AR Plane Y handles the update of the map with the AR plane 
+        - ##### 2) Initialize Map With Location Provider places the users location on the map
+        - ##### 3) Abstract Map handles the main Mapbox integration into Unity. Therea are four main settings under Abstract Map
+            - ##### 1) General handles the starting location in play mode within Unity. It also handles the basic design of the map layout.
+            - ##### 2) Image sources from Mapbox to stylize the look of the displayed map
+            - ##### 3) Terrain provides the ability to adjust the terrain from flat or add in elevation
+            - ##### 4) Map Layers connect in the Mapbox URL to allow us to access the custom map data. Through the Map Layer, POI's can be placed on the map to appear to the user while they use the application. For each POI we placed a prefab into the object reference. For the POI on the building we have a prefab with 3D text, and for the guidance POI we placed orange guidance spheres. This game object also handles the features of the map. The path was added with a blue transparent material to create a visually pleasing path. After placing the POI on the maps, we did tests on the campus. Some adjustments had to be made to ensure correct location to reflect real life conditions. 
+
+* ##### Debug Canvas game object displays the text on the map and the UI features like the repositioning button. 
+* ##### Location Provider handles the phone integration. Handles obtaining the phone's GPS to accurately update the map. This game object also provided in scene testing.
+* ##### Info Canvas displays the initial pop-up warning the user to pay attention to their surroundings
+
+
 ![logo](https://github.com/khcanniff/TigAR/blob/master/Documentation/Images/Screenshot%20of%20IRL%20test.JPG)
 
 # 2D Map
