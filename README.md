@@ -82,7 +82,7 @@ else
 
 ### Mapbox:
 ##### We investigated google's GPS API but we ran into a roadblock. The roadblock was that we did not have a credit card to enter into the webpage. Looking into other options we found Mapbox. Mapbox leverages the power of Unity to be able to easily incorporate AR Foundation. AR Foundation blends both ARCore and ARKit plugins for unity. With AR Foundation, Unity has AR features and prefabs for use in projects. Investigating into Mapbox was difficult at first because of the outdated resources online. While GPS is still not 100% accurate in Mapbox, the accuracy is enough after some manual adjustments within the application. After some trails and errors, a project leveraging Mapbox was created. Below we outline the main steps to implement Mapbox into Unity.
-##### The first step was learning the pipeline for Mapbox.
+##### The first step was learning the pipeline for Mapbox. Below is an image showing the basic flow between Mapbox and Unity.
 ![logo](https://github.com/khcanniff/TigAR/blob/master/Documentation/Mapbox%20Pipeline%20(1).png)
 ##### Creating the custom map in Mapbox involved removing extra layers, and ensured a valid path for the map. Since the map data was preexisting we checked to make sure that there was a valid path through campus. After we confirmed valid paths, we added in a custom data set. The custom data set consisted of GPS coordinate spots to place the spheres at. In Unity we integrated the custom map through a secure URL. Below is a screenshot for the custom map. ![logo](https://github.com/khcanniff/TigAR/blob/master/Documentation/Images/Mapbox%20custom%20map.JPG) 
 ##### Due to the lack of updated resources online, the existing layers in the map was researched in order to figure out how the layers worked. We found out that a custom dataset was required to add in for the map layer. Below you can see a screenshot showing the interface to create the custom dataset. 
@@ -112,7 +112,7 @@ else
 * ##### Debug Canvas game object displays the text on the map and the UI features like the repositioning button. 
 * ##### Location Provider handles the phone integration. Handles obtaining the phone's GPS to accurately update the map. This game object also provided in scene testing.
 * ##### Info Canvas displays the initial pop-up warning the user to pay attention to their surroundings
-
+#### The image below is the final product.
 
 ![logo](https://github.com/khcanniff/TigAR/blob/master/Documentation/Images/Screenshot%20of%20IRL%20test.JPG)
 
