@@ -132,6 +132,16 @@ void ZoomCamera(float offset, float speed) //update the camera's FOV
 ##### The code above describes the main feature for panning in and out of the map. The first function handles moving the map whenever the user tries "swiping" in a certain direction. The second function describes the zooming effect that can zoom in or out of the map. With these two functions it made handling the map image much easier for the user to adjust for visuals.
 
 # Design Process
+##### Since the beginning we have planned For how TigAR should look to the user. We started with an initial draft design document so that the team can be on the same page for how the app was going to look like. Below is a table to show the process from our inital design to the new design:
+Name | Draft | Final
+--- | --- | ---
+Main Menu | <img src =https://github.com/khcanniff/TigAR/blob/master/Documentation/Images/DraftMenu.PNG width="500"/> | <img src =https://github.com/khcanniff/TigAR/blob/master/Documentation/Images/FinalMenu.jpg width="500"/>
+Building Info Page | <img src =https://github.com/khcanniff/TigAR/blob/master/Documentation/Images/DraftBuildingInfo.PNG width="500"/> | <img src <img src =https://github.com/khcanniff/TigAR/blob/master/Documentation/ImgRecog.jpg width="500"/>
+Locate Form| <img src =https://github.com/khcanniff/TigAR/blob/master/Documentation/Images/DraftForm.PNG width="500"/> | <img src =https://github.com/khcanniff/TigAR/blob/master/Documentation/Images/FinalForm.jpg width="500"/> 
+GPS | Insert draft GPS | Final GPS
+About Page | <img src =https://github.com/khcanniff/TigAR/blob/master/Documentation/Images/DraftAbout.PNG width="500"/> | <img src =https://github.com/khcanniff/TigAR/blob/master/Documentation/Images/FinalAbout.jpg width="500"/> 
+##### Going down the table each screenshot shows the main menu, building information page, locate building page form, GPS design, and the about page, in respective order. The 2D map is not included since it is just an image and does not show a significant difference.
+##### The new designs show more vibrant colors and is much more pleasing to the eye than the ones we had in the draft/planning phases. The UI interface is also more realistic in terms of what the user should be seeing. This can be in the building information screenshots. The draft on the left side does not fully capture what we want the user to see, unlike the one on the right which is a better depiction of the feature at work. Everything else has been changed to improve the user experience.
 
 # Future Workings
 ##### There are other features we hope to include in the future:
