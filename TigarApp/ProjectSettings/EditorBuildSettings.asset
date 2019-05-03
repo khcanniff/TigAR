@@ -8,9 +8,6 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: Assets/Scenes/ARDemo.unity
-    guid: 64828d3b7725c254383b57b0168eb083
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: 2e07fcc5ed7777943a5e2680dab34bb7
@@ -29,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LocateBuilding.unity
     guid: 973bca77a79820e45bfc19bfc77a7697
+  - enabled: 0
+    path: Assets/Scenes/ARDemo.unity
+    guid: 64828d3b7725c254383b57b0168eb083
   m_configObjects: {}
