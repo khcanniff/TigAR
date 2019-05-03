@@ -4,7 +4,7 @@
 #  "In your repository, you should have a readme.md that specifies at least 3 files that your project heavily implemented and provide links to those files in the repo. "
 1) Vuforia Scene [Jamie Halp]
 2) [Mapbox](https://github.com/khcanniff/TigAR/tree/master/TigAR_GPS-master)
-3) ???? [Halp, thinking maybe 2D?? idk]
+3) ???? [Halp, thinking maybe 2D map?? idk]
 
 # Image Recognition: Vuforia
 ##### For TigAR to recognize the stickers we provided, we decided to use the Vuforia engine that partners with Unity. The biggest feature of Vuforia that we used were target images, which scan flat objects such as photographs. With these target images, Unity would connect with a Vuforia database that we set up (we had to place in what the target images look like). While in the app whenever the camera detects an intended image, Vuforia would tell Unity that this is the correct image to use. In our case, we would display text boxes showing information when shown a particular sticker.
