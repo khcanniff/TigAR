@@ -36,6 +36,10 @@ if (!StopSearchWhenModelFound && StopSearchWhileTracking && elapsed > 0.5f)
 ```
 ##### The code above comes from Vuforia and is looped in an Update function. It describes the way Vuforia looks for a current model or image to scan. If a model/image has been scanned successfully, then it tells Vuforia to stop looking for more objects to scan unless there is another model/image that is more predominant in the camera view.
 
+##### [Please talk about the why Vuforia targets image.] 
+
+<img src =https://github.com/khcanniff/TigAR/blob/master/Documentation/Images/Vuforia%20target.JPG/>
+
 # GPS Guidance: Mapbox [WIP]
 ##### We originally planned on created a script to handle the GPS detection. We created the script GPS.cs [Jamie, please add script here]. When we tested the script in real world settings we found the GPS to be inaccurate and issues with the objects appearing. The issues with the objects appearing is that the objects overplayed on the screen but not in relation to the path. If the user moved their phone, then the object would move with them. 
 ##### We investigated google's GPS API but we ran into a roadblock. The roadblock was that we did not have a credit card to enter into the webpage. Looking into other options we found Mapbox. Mapbox leverages the power of Unity to be able to easily incorporate AR Foundation. AR Foundation blends both ARCore and ARKit plugins for unity. With AR Foundation, Unity has AR features and prefabs for use in projects. Investigating into Mapbox was difficult at first because of the outdated resources online. While GPS is still not 100% accurate in Mapbox, the accuracy is enough after some manual adjustments within the application. After some trails and errors, a project leveraging Mapbox was created. Below we outline the main steps to implement Mapbox into Unity.
