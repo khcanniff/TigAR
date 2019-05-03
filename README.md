@@ -36,7 +36,7 @@ if (!StopSearchWhenModelFound && StopSearchWhileTracking && elapsed > 0.5f)
 ```
 ##### The code above comes from Vuforia and is looped in an Update function. It describes the way Vuforia looks for a current model or image to scan. If a model/image has been scanned successfully, then it tells Vuforia to stop looking for more objects to scan unless there is another model/image that is more predominant in the camera view.
 
-##### [Please talk about the why Vuforia targets image.] 
+##### [Please talk about how Vuforia targets image. I like how its mentioned above maybe just refer to this pic] 
 
 <img src =https://github.com/khcanniff/TigAR/blob/master/Documentation/Images/Vuforia%20target.JPG/>
 
