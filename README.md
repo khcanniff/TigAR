@@ -10,8 +10,13 @@
 2) [Mapbox](https://github.com/khcanniff/TigAR/tree/master/TigAR_GPS-master)
 3) [2D Map](https://github.com/khcanniff/TigAR/blob/master/TigarApp/Assets/Scripts/CameraHandler.cs)
 
-### How to build and run the project
-##### The program was implemented in the Unity game engine and was built for the Android platform. Here are [folders](https://github.com/khcanniff/TigAR/tree/master/Apks) to the Android executable. Once you build it, you can then download the APK, and install on an Android mobile device. 
+## How to build and run the project
+### Building Vuforia with Unity
+##### First download Vuforia and [follow their steps](https://library.vuforia.com/articles/Training/getting-started-with-vuforia-in-unity.html) to install it in the project. Go to Window -> Vuforia Configuration and then add the Vuforia key. This key is located on the Final Submission assignment within README.txt, so copy that key and place it into the "App License Key" section in the inspector. Use this key only since it connects directly to the correct database we used. Once this is done, Vuforia will be ready for development.
+### Building Mapbox with Unity
+##### Download Mapbox and [follow their steps](https://www.mapbox.com/unity/) to install it in the project. Go to Mapbox -> Setup and then add the Mapbox key. This key is located on the Final Submission assignment within README.txt, so copy that key and place it into the "Access Token" section in the popup. Use this key only since it connects directly to the correct map we customized on the Mapbox studio site online. Once this is done, Mapbox will be ready for development.
+----
+##### After the above is done, you can now start developing. The TigAR program was implemented in the Unity game engine and was built for the Android platform. Here are [folders](https://github.com/khcanniff/TigAR/tree/master/Apks) to the Android executable. Once you build it, you can then download the APK, and install on an Android mobile device. 
 
 # Image Recognition: Vuforia
 ##### For TigAR to recognize the stickers we provided, we decided to use the Vuforia engine that partners with Unity. The biggest feature of Vuforia that we used were target images, which scan flat objects such as photographs. With these target images, Unity would connect with a Vuforia database that we set up (we had to place in what the target images look like). While in the app whenever the camera detects an intended image, Vuforia would tell Unity that this is the correct image to use. In our case, we would display text boxes showing information when shown a particular sticker.
@@ -51,9 +56,6 @@ if (!StopSearchWhenModelFound && StopSearchWhileTracking && elapsed > 0.5f)
 <img src =https://github.com/khcanniff/TigAR/blob/master/Documentation/Images/Vuforia%20target.JPG width="500"/>
 
 ##### The image above is one example of the target image as it sits in the Vuforia database. Vuforia places markers (the yellow + signs) on each image to show how it recognizes images. We needed to provide compatible images that would be easy to scan, so stencil-like drawings were the best types for our case.
-
-### Building Vuforia with Unity
-##### First download Vuforia and [follow their steps](https://library.vuforia.com/articles/Training/getting-started-with-vuforia-in-unity.html) to install it in the project. Go to Window -> Vuforia Configuration and then add the Vuforia key. This key is located on the Final Submission assignment within README.txt, so copy that key and place it into the "App License Key" section in the inspector. Use this key only since it connects directly to the correct database we used. Once this is done, Vuforia will be ready for development.
 
 # GPS Guidance:
 ### GPS script (no third party engine)
@@ -121,9 +123,6 @@ else
 #### The image below is the final product.
 
 ![logo](https://github.com/khcanniff/TigAR/blob/master/Documentation/Images/Screenshot%20of%20IRL%20test.JPG)
-
-### Building Mapbox with Unity
-##### Download Mapbox and [follow their steps](https://www.mapbox.com/unity/) to install it in the project. Go to Mapbox -> Setup and then add the Mapbox key. This key is located on the Final Submission assignment within README.txt, so copy that key and place it into the "Access Token" section in the popup. Use this key only since it connects directly to the correct map we customized on the Mapbox studio site online. Once this is done, Mapbox will be ready for development.
 
 # 2D Map
 ##### We thought it would be helpful for users of the application to have access to a static version of the map. We downloaded an online PDF of the map online and imported it into Unity. Once the UOP map was in Unity we wanted the user to be able to pan zoom into the map for ease of visualization. There was existing tutorial online for how to pan and zoom on a mobile phone game. We adapted the code to fit our project and it is located in the CameraHandler.cs script. The user can pinch the map to zoom in and out, while panning around the map with the ease of a finger touching the screen. 
