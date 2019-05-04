@@ -10,7 +10,7 @@
 2) [Mapbox](https://github.com/khcanniff/TigAR/tree/master/TigAR_GPS-master)
 3) [2D Map](https://github.com/khcanniff/TigAR/blob/master/TigarApp/Assets/Scripts/CameraHandler.cs)
 
-### How to build and run project
+### How to build and run the project
 ##### The program was implemented in the Unity game engine and was built for the Android platform. Here are [folders](https://github.com/khcanniff/TigAR/tree/master/Apks) to the Android executable. Once you build it, you can then download the APK, and install on an Android mobile device. 
 
 # Image Recognition: Vuforia
