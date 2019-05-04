@@ -52,6 +52,9 @@ if (!StopSearchWhenModelFound && StopSearchWhileTracking && elapsed > 0.5f)
 
 ##### The image above is one example of the target image as it sits in the Vuforia database. Vuforia places markers (the yellow + signs) on each image to show how it recognizes images. We needed to provide compatible images that would be easy to scan, so stencil-like drawings were the best types for our case.
 
+### Building Vuforia with Unity
+##### First download Vuforia and [follow their steps](https://library.vuforia.com/articles/Training/getting-started-with-vuforia-in-unity.html) to install it in the project. Go to Window -> Vuforia Configuration and then add the Vuforia key. This key is located on the Final Submission assignment within README.txt, so copy that key and place it into the "App License Key" section in the inspector. Use this key only since it connects directly to the correct database we used. Once this is done, Vuforia will be ready for development.
+
 # GPS Guidance:
 ### GPS script (no third party engine)
 ##### We originally planned on creating a script to handle the GPS detection and guidance. The first plan was to locate where the user was (finding the device GPS) and then place objects in the world at certain target locations. These set locations would leave a path for the user to follow and it would change depending on which building the user wanted to go to. We created the scripts GPS.cs, which parts of it will be shown below. 
@@ -118,6 +121,9 @@ else
 #### The image below is the final product.
 
 ![logo](https://github.com/khcanniff/TigAR/blob/master/Documentation/Images/Screenshot%20of%20IRL%20test.JPG)
+
+### Building Mapbox with Unity.
+##### Download Mapbox and [follow their steps](https://www.mapbox.com/unity/) to install it in the project. Go to Mapbox -> Setup and then add the Mapbox key. This key is located on the Final Submission assignment within README.txt, so copy that key and place it into the "Access Token" section in the popup. Use this key only since it connects directly to the correct map we customized on the Mapbox studio site online. Once this is done, Mapbox will be ready for development.
 
 # 2D Map
 ##### We thought it would be helpful for users of the application to have access to a static version of the map. We downloaded an online PDF of the map online and imported it into Unity. Once the UOP map was in Unity we wanted the user to be able to pan zoom into the map for ease of visualization. There was existing tutorial online for how to pan and zoom on a mobile phone game. We adapted the code to fit our project and it is located in the CameraHandler.cs script. The user can pinch the map to zoom in and out, while panning around the map with the ease of a finger touching the screen. 
