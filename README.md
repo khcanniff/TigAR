@@ -122,7 +122,7 @@ else
 
 ![logo](https://github.com/khcanniff/TigAR/blob/master/Documentation/Images/Screenshot%20of%20IRL%20test.JPG)
 
-### Building Mapbox with Unity.
+### Building Mapbox with Unity
 ##### Download Mapbox and [follow their steps](https://www.mapbox.com/unity/) to install it in the project. Go to Mapbox -> Setup and then add the Mapbox key. This key is located on the Final Submission assignment within README.txt, so copy that key and place it into the "Access Token" section in the popup. Use this key only since it connects directly to the correct map we customized on the Mapbox studio site online. Once this is done, Mapbox will be ready for development.
 
 # 2D Map
