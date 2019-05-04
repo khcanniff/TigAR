@@ -171,4 +171,5 @@ About Page | <img src =https://github.com/khcanniff/TigAR/blob/master/Documentat
 * Add class schedules personalized by the user
 * Include room numbers/classes held per building held in the informational text boxes for image recognition
 * Display additional information for viewing the traditional 2D map
+* Make the application iOS compatible/friendly
 
