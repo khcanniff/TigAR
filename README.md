@@ -10,6 +10,9 @@
 2) [Mapbox](https://github.com/khcanniff/TigAR/tree/master/TigAR_GPS-master)
 3) [2D Map](https://github.com/khcanniff/TigAR/blob/master/TigarApp/Assets/Scripts/CameraHandler.cs)
 
+### How to build and run project
+##### The program was implemented in the Unity game engine and was built for the Android platform. Here are [folders](https://github.com/khcanniff/TigAR/tree/master/Apks) to the Android executable which you can download ad install on an Android mobile device. 
+
 # Image Recognition: Vuforia
 ##### For TigAR to recognize the stickers we provided, we decided to use the Vuforia engine that partners with Unity. The biggest feature of Vuforia that we used were target images, which scan flat objects such as photographs. With these target images, Unity would connect with a Vuforia database that we set up (we had to place in what the target images look like). While in the app whenever the camera detects an intended image, Vuforia would tell Unity that this is the correct image to use. In our case, we would display text boxes showing information when shown a particular sticker.
 <img src =https://github.com/khcanniff/TigAR/blob/master/Documentation/ImgRecog.jpg width="500"/>
