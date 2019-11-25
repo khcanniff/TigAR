@@ -1,6 +1,8 @@
 # TigAR 
 ##### An interactive augmented reality map of University of the Pacific, which can be accessed by Android version 8 or above smart phones. Users can use this application to help locate specific buildings on the Pacific campus, along with various other information like historical facts.
 
+### [See the guidance feature in action!](https://www.youtube.com/watch?v=XvyZJlKSDPc&feature=youtu.be)
+
 ###  In our project we have three main features to focus on: 
 * Image Recognition
 * GPS Guidance
